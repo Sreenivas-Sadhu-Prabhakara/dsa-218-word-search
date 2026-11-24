@@ -12,6 +12,13 @@ Try every cell as a start; from each, a DFS matches one character per step and b
 
 **Complexity:** O(cells · 3^len) worst case (no immediate backstep), O(len) recursion.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
